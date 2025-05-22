@@ -20,6 +20,7 @@ ydl_opts = {
         'preferredcodec': 'mp3',
         'preferredquality': '320',
     }],
+    'ffmpeg_location': './ffmpeg.exe',
 }
 
 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
