@@ -36,7 +36,7 @@ A simple and efficient command-line tool to download YouTube videos and convert 
 Run the script with a YouTube URL as an argument:
 
 ```
-python app.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+python app.py https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 
 ⚠️ **Important**: On Windows PowerShell, you must use quotes around URLs that contain special characters like `&`.
